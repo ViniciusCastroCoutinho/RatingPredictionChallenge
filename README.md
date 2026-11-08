@@ -1,16 +1,5 @@
 # Rating Prediction Challenge
-This project is a Jupyter project.
-For VS Code users, check [this link](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) for guidance.
-For PyCharm users, PyCharm already supports Jupyter integration. <br>
-Using Python (3.14.3):
+Modelo para classificar automaticamente reviews.
 
-```pip install -r requirements.txt```
-
-This project uses pre-commit. For more information on what it does, check [this link](https://pre-commit.com/).
-But basically, it cleans up code before committing files.  </br>
-How to use:
-1. After installing requirements, run `pre-commit install` at least once.
-2. It will automatically run before any `git commit`, but can be manually triggered using `pre-commit`.
-3. If pre-commit modifies any files, you must `git add` them to staging area.
-
-Note: pre-commit only modifies files on staging area.
+Esta [competição](https://www.kaggle.com/competitions/mineracao-de-dados-uea-rating-prediction-challenge-2026/overview) usa reviews em português para a tarefa de classificação multiclasse do rating.
+O objetivo é treinar um modelo a partir do conjunto de treino e prever o rating (1 a 5) para cada instância do conjunto de teste.
